@@ -5,7 +5,7 @@ empty lines removed.
 """
 import os
 # source = "Data_Files" + os.sep + input("Enter the name of the source file: ")
-source = "C:\\Users\hiren\PycharmProjects\Programming-Principles-\WS7\Data_Files\\file.txt"
+source = "Data_Files" + os.sep + input("Enter the name of the source file: ")
 target = "Data_Files" + os.sep + input("Enter the name of the target file: ")
 
 with open(source, "r") as f:

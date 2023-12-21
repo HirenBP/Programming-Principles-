@@ -1,5 +1,5 @@
 This is a file in folder
-
+Line2
 After one empty line
-
+Line4
 After two empty lines
