@@ -1,13 +1,22 @@
 """
-Greedy Alogorithms :
-Fraction Backpack prolem:
-capcity = 25
-Item Size Value
-0    22     19
-1    10     9
-2    9      9
-3    7      6
+Find largets element in array for given array of ineger.
 """
-items = [(22, 19), (10, 9), (9, 9), (7, 6)]
+def largestnumber(numbers):
+    biggest_number = numbers[0]
+    for num in numbers:
+        if num > biggest_number:
+            biggest_number = num
+    return biggest_number
+
+def smallest_number(numbers):
+    smaleest_number = numbers[0]
+    for num in numbers:
+        if smaleest_number > num:
+            smaleest_number = num
+    return smaleest_number
+
+print(largestnumber([100,345,234,465,456,234,234,563,45234234,4546,3,534]))
+print(smallest_number([100,345,234,465,456,234,234,563,45234234,4546,3,534]))
+
 
 
