@@ -4,8 +4,7 @@ wc that prompts for the name of the file ro tread, then prints the counts. Assum
 symbols and their mixture, but not space. Hyphenated words, e.g. large-scale are considered as a single word.
 """
 
-import os
-source = "Data_Files" + os.sep + input('File name:')
+source = '\\'.join(['Data_Files',input('File name :')])
 print(source)
 with open(source) as F1:
     lines = F1.readlines()
