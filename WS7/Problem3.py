@@ -3,7 +3,7 @@ Problem3: Write a program that prompts for the name of a file containing number 
 the average of each line. Assume each line contain numbers only and they are separated by a space.
 """
 import os
-source = "Data_Files" + os.sep + input('File name:')
+source = '\\'.join(['Data_Files',input('File name :')])
 with open(source) as file1:
     line_avg = []
     counter = 1
