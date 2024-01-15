@@ -5,7 +5,6 @@ symbols and their mixture, but not space. Hyphenated words, e.g. large-scale are
 """
 
 source = '\\'.join(['Data_Files',input('File name :')])
-print(source)
 with open(source) as F1:
     lines = F1.readlines()
     words = []

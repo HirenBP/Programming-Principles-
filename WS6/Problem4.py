@@ -9,7 +9,7 @@ marks = []
 # append list mark to two-dimensional list marks
 for i in range(1, 6):
     s1 = input(f'Student {i} (courses 1-4):')
-    mark = [int(j) for j in s1.split(' ')]
+    mark = [int(j) for j in s1.split()]
     marks.append(mark)
 # Function to get average of items in list
 def average(lst):

@@ -13,5 +13,5 @@ with open(source) as file1:
         average = sum(numbers) / len(numbers)
         line_avg.append(average)
     for avg in line_avg:
-        print(f'The average of line {counter} is {avg}')
+        print(f'The average of line {counter} is {format(avg,".2f")}')
         counter += 1

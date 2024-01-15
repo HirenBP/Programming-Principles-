@@ -6,7 +6,10 @@ lines and the last two lines of the file
 source = '\\'.join(['Data_Files',input('Enter file name :')])
 with open(source) as file1:
     lines = file1.readlines()
-print(*lines[0:2])
-print(*lines[-2:])
+    for num,line in enumerate(lines):
+        if num < 2:
+            print(line.strip())
+        if num > len(lines)-3:
+            print(line.strip())
 
 
