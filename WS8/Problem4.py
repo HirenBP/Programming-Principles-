@@ -28,8 +28,6 @@ def merge(list1, list2):
     return result
 
 
-
-
 input1 = input('List 1: ')
 while input1 != '':
     input2 = input('List 2: ')

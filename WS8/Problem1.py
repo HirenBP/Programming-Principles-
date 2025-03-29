@@ -3,7 +3,6 @@ Problem: Write a program with a function that given a list of numbers, rotate th
 becomes the last, and the rest of the numbers move one position forward. Do the rotation iteratively until the list
 of numbers returns to its initial form.
 """
-
 def swapList(l):
     temp = l[0]
     l = l[1:]
